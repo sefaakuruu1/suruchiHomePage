@@ -9,7 +9,7 @@ body {
   align-items: center;
   background-color: #ef2861;
   color: white;
-  height: 10vh;
+  height: 8vh;
 }
 .navItem {
   display: flex;
@@ -54,11 +54,11 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
+  height: 8vh;
 }
 .rightSec {
   display: flex;
-  gap: 2vh;
+  gap: 3vh;
   align-items: center;
   justify-content: center;
 }
@@ -120,7 +120,7 @@ section {
 
 .secondSection {
   display: flex;
-  font-size: 1.6vh;
+  font-size: 2vh;
   justify-content: space-around;
   align-items: center;
   height: 10vh;
@@ -129,7 +129,7 @@ section {
 .secondSectionOneCont {
   display: flex;
   align-items: center;
-  gap: 3vh;
+  gap: 5vh;
 }
 .secondSectionOneItem {
   display: flex;
@@ -197,7 +197,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 40%;
+  max-width: 35%;
   text-align: center;
 }
 .carousel-right h2 {
@@ -262,7 +262,7 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  gap: 6vh;
+  gap: 5vh;
 }
 .searchBar {
   display: flex;
@@ -270,23 +270,26 @@ section {
   gap: 10vh;
 }
 .productsMain {
+
   display: flex;
   padding: 1vw;
   gap: 16px;
 }
 .categories {
+  border-radius: 3px;
   border: 1px solid rgb(230, 232, 235);
-  width: 40vw !important;
-  margin-left: 5px;
+  width: 30vw !important;
+  margin-left: 3vw;
   height: 10%;
   display: flex;
   grid-gap: 12px;
   flex-direction: column;
   align-items: center;
-  padding: 12px;
+  padding: 25px;
 }
 
 .products {
+  padding:10px ;
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -316,7 +319,10 @@ section {
   padding: 3px;
   border-radius: 3px;
 }
-
+.textCat{
+  margin-left: 0;
+  text-align: left;
+}
 .menu {
   flex-wrap: wrap;
   display: flex;
@@ -325,26 +331,29 @@ section {
 .prod {
   display: flex;
   align-items: center;
+  padding:10px ;
   gap: 8px;
   border: 1px solid rgb(230, 232, 235);
   height: 4%;
   width: 100%;
-  padding: 5px;
+  
 }
 .prod select {
   width: 100%;
 }
 .add {
-  font-size: 8px;
+  font-size: 12px;
   display: flex;
   gap: 2px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  text-align: center;
 }
 .car {
   padding: 3px;
   display: flex;
   align-items: center;
+  gap:4px;
   border: 1px solid rgb(230, 232, 235);
 }
 .productInfo {
